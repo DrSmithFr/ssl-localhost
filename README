@@ -1,0 +1,14 @@
+Clean localhost SSL
+===================
+
+# Install
+
+1. Append your domains to the "domains" files (one by line)
+2. Generate root cert with `src/generate-root-cert.sh`
+3. Add root cert to trusted Authorities of your browser
+3. Generate domains cert with `src/generate-domains.sh`
+
+# Update
+
+1. Append your domains to the "domains" files (one by line)
+3. Generate domains cert with `src/generate-domains.sh`
